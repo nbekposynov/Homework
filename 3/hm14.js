@@ -1,7 +1,7 @@
 let arr = ["a", "b"];
 
 arr.push(function() {
-  alert( this );
+  console.log( this );
 })
 
-arr[2](); // a,b,function(){...}
+arr[2](); 

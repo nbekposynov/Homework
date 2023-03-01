@@ -6,7 +6,6 @@ function sumInput() {
   
       let value = prompt("Введите число", 0);
   
-      // Прекращаем ввод?
       if (value === "" || value === null || !isFinite(value)) break;
   
       numbers.push(+value);
@@ -19,4 +18,4 @@ function sumInput() {
     return sum;
   }
   
-  alert( sumInput() );
+  console.log( sumInput() );

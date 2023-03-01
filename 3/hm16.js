@@ -1,5 +1,5 @@
 function getMaxSubSum(arr) {
-    let maxSum = 0; // если элементов не будет - возвращаем 0
+    let maxSum = 0; 
   
     for (let i = 0; i < arr.length; i++) {
       let sumFixedStart = 0;
