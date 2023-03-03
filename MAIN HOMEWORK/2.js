@@ -1,10 +1,8 @@
 const BigNumber = require('bignumber.js');
 
-// создание объектов BigNumber с помощью строк
 const a = new BigNumber('1234567890123456789012345678901234567890');
 const b = new BigNumber('9876543210987654321098765432109876543210');
 
-// операции с объектами BigNumber
 const sum = a.plus(b);
 const diff = a.minus(b);
 const prod = a.times(b);
